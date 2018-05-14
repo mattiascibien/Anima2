@@ -1,0 +1,6 @@
+[package]
+name = "anima"
+version = "0.1.0"
+authors = ["Mattias Cibien <mattias@mattiascibien.net>"]
+
+[dependencies]

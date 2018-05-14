@@ -1,0 +1,7 @@
+[package]
+name = "animarender"
+version = "0.1.0"
+authors = ["Mattias Cibien <mattias@mattiascibien.net>"]
+
+[dependencies]
+anima = { path = "../libanima" }
