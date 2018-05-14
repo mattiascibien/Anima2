@@ -2,10 +2,18 @@
 name = "animarender"
 version = "0.1.0"
 authors = ["Mattias Cibien <mattias@mattiascibien.net>"]
+build = "build.rs"
+
+[package.metadata.winres]
+LegalCopyright = "Copyright © 2018 Mattias Cibieen"
+ProductName = "AnimaRender"
 
 [features]
 default = ["native-dialogs"]
 native-dialogs = ["nfd"]
+
+[target.'cfg(target_os="windows")'.build-dependencies]
+winres = "0.1"
 
 [dependencies]
 clap = "2.31"
