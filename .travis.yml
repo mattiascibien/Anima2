@@ -4,6 +4,11 @@ language: rust
 
 cache: cargo
 
+addons:
+  apt:
+    packages:
+      - libgtk-3-dev
+
 os:
   - linux
   - osx

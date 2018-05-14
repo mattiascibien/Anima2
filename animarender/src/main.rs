@@ -1,3 +1,5 @@
+extern crate anima;
+
 fn main() {
-    println!("Hello, world!");
+    
 }
