@@ -4,6 +4,7 @@ version = "0.1.0"
 authors = ["Mattias Cibien <mattias@mattiascibien.net>"]
 
 [features]
+default = ["native-dialogs"]
 native-dialogs = ["nfd"]
 
 [dependencies]
