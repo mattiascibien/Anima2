@@ -4,6 +4,10 @@ language: rust
 
 cache: cargo
 
+os:
+  - linux
+  - osx
+
 rust:
   - stable
   - beta
