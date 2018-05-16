@@ -5,9 +5,10 @@ authors = ["Mattias Cibien <mattias@mattiascibien.net>"]
 
 [features]
 default = ["opengl"]
-opengl = ["gfx_window_glutin", "gfx_device_gl"]
+opengl = ["gfx_window_glutin", "gfx_device_gl", "glutin"]
 
 [dependencies]
 gfx = "0.17"
 gfx_window_glutin = { version = "0.23", optional= true }
-gfx_device_gl= { version = "0.15", optional= true }
+gfx_device_gl = { version = "0.15", optional = true }
+glutin = { version = "0.15", optional = true }
